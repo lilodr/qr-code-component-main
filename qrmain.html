@@ -9,9 +9,15 @@
     <style>
         
         body{
-            font-size: 15px;
+            
             font-family:"Outfit";
             background-color: hsl(212, 45%, 89%);
+           
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .container{
             width: 20em;
@@ -19,7 +25,10 @@
             border-radius: 20px;
             border: 1px solid hsl(0, 0%, 100%);
             background-color: hsl(0, 0%, 100%);
-            margin: auto;
+            text-align: center;
+            margin-top: 3em;
+            margin-bottom: 3em;
+           
         }
         .img{
             width: 20em;
@@ -30,23 +39,30 @@
         }
         h1{
             font-weight: 700;
+            font-size: 1.7em;
             
         }
-        p{
-            font-weight: 400;
-        }
+        
         .sfondo{
             background-color: hsl(212, 45%, 89%);
             padding: 4em;
+        }
+        p{
+            color: hsl(220, 15%, 55%);
+            font-weight: 400;
+            font-size: 1.2em;
+            
         }
     </style>
 </head>
 <body>
     
-        <div class="container">
-            <div class="img"><img src="images/image-qr-code.png" alt="qr"></div>
-            <h1>Improve your front-end skills by buiding projects</h1>
-            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        <div class="flex">
+            <div class="container">
+                <div class="img"><img src="images/image-qr-code.png" alt="qr"></div>
+                <h1>Improve your front-end skills by buiding projects</h1>
+                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level !</p>
+            </div>
         </div>
     
 </body>
